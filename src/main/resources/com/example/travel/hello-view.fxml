@@ -15,7 +15,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1350.0" styleClass="dark-background" stylesheets="@../../../../java/css/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travel.HelloController">
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="816.0" styleClass="dark-background" stylesheets="@../../../../java/css/styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travel.HelloController">
    <top>
       <HBox prefHeight="100.0" prefWidth="1274.0" spacing="20.0" styleClass="border-bottom" stylesheets="@../../../../java/css/styles.css" BorderPane.alignment="CENTER">
          <children>
@@ -93,7 +93,7 @@
                         <Image url="@../../../../java/img/chats1.png" />
                      </image>
                   </ImageView>
-                  <Label text="Chats" textFill="#f5f0f0" />
+                  <Label text="Help" textFill="#f5f0f0" />
                </children>
             </VBox>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">

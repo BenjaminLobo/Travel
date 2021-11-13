@@ -15,15 +15,15 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1350.0" styleClass="dark-background" stylesheets="@../../../../java/css/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travel.HelloController">
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1350.0" styleClass="dark-background" stylesheets="@../../../css/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travel.HelloController">
    <top>
-      <HBox prefHeight="100.0" prefWidth="1274.0" spacing="20.0" styleClass="border-bottom" stylesheets="@../../../../java/css/styles.css" BorderPane.alignment="CENTER">
+      <HBox prefHeight="100.0" prefWidth="1274.0" spacing="20.0" styleClass="border-bottom" stylesheets="@../../../css/styles.css" BorderPane.alignment="CENTER">
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="126.0">
                <children>
                   <ImageView fitHeight="50.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/menu2.png" />
+                        <Image url="@../../../img/menu2.png" />
                      </image>
                      <HBox.margin>
                         <Insets right="5.0" />
@@ -50,7 +50,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/Travelicon.jpg" />
+                        <Image url="@../../../img/Travelicon.jpg" />
                      </image>
                   </ImageView>
                   <Label text="Travelling" textFill="WHITE" />
@@ -60,7 +60,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/explore.png" />
+                        <Image url="@../../../img/explore.png" />
                      </image>
                   </ImageView>
                   <Label text="Explore" textFill="#f5f0f0" />
@@ -70,7 +70,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/Saved1.png" />
+                        <Image url="@../../../img/Saved1.png" />
                      </image>
                      <VBox.margin>
                         <Insets top="13.0" />
@@ -90,7 +90,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/chats1.png" />
+                        <Image url="@../../../img/chats1.png" />
                      </image>
                   </ImageView>
                   <Label text="Chats" textFill="#f5f0f0" />
@@ -100,7 +100,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/Profileicon.jpg" />
+                        <Image url="@../../../img/Profileicon.jpg" />
                      </image>
                   </ImageView>
                   <Label text="Profile" textFill="#f5f0f0" />
@@ -111,7 +111,7 @@
                <children>
                   <ImageView fitHeight="48.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/Bell.jpg" />
+                        <Image url="@../../../img/Bell.jpg" />
                      </image>
                      <VBox.margin>
                         <Insets top="17.0" />
@@ -124,7 +124,7 @@
                <children>
                   <ImageView fitHeight="48.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../java/img/search1.jpg" />
+                        <Image url="@../../../img/search1.jpg" />
                      </image>
                      <VBox.margin>
                         <Insets top="7.0" />
@@ -140,7 +140,7 @@
       </HBox>
    </top>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@../../../css/styles.css" BorderPane.alignment="CENTER">
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="1271.0">
                <children>
@@ -172,7 +172,7 @@
                         <Insets />
                      </HBox.margin>
                   </Pane>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" styleClass="bottom" stylesheets="@../../../../java/css/styles.css" text="Filter" textFill="WHITE">
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" styleClass="bottom" stylesheets="@../../../css/styles.css" text="Filter" textFill="WHITE">
                      <HBox.margin>
                         <Insets right="30.0" />
                      </HBox.margin></Button>
@@ -184,11 +184,11 @@
                      <children>
                         <AnchorPane prefHeight="717.0" prefWidth="1343.0" styleClass="dark-background">
                            <children>
-                              <Pane layoutX="14.0" layoutY="14.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="14.0" layoutY="14.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Goa.jpg" />
+                                          <Image url="@../../../img/Goa.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -226,11 +226,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="473.0" layoutY="14.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="473.0" layoutY="14.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Kashmir.jpg" />
+                                          <Image url="@../../../img/Kashmir.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -268,11 +268,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="931.0" layoutY="14.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="931.0" layoutY="14.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Rajasthan.jpg" />
+                                          <Image url="@../../../img/Rajasthan.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -310,11 +310,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="14.0" layoutY="252.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="14.0" layoutY="252.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Kerala.jpg" />
+                                          <Image url="@../../../img/Kerala.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -352,11 +352,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="473.0" layoutY="252.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="473.0" layoutY="252.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Lakshadweep.jpg" />
+                                          <Image url="@../../../img/Lakshadweep.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -394,11 +394,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="931.0" layoutY="252.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="931.0" layoutY="252.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Kolkata.jpg" />
+                                          <Image url="@../../../img/Kolkata.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -436,11 +436,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="14.0" layoutY="493.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="14.0" layoutY="493.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/AndamanAndNicobar.jpg" />
+                                          <Image url="@../../../img/AndamanAndNicobar.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">
@@ -478,11 +478,11 @@
                                     </HBox>
                                  </children>
                               </Pane>
-                              <Pane layoutX="473.0" layoutY="493.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow" stylesheets="@../../../../java/css/styles.css">
+                              <Pane layoutX="473.0" layoutY="493.0" prefHeight="220.0" prefWidth="430.0" styleClass="shadow">
                                  <children>
                                     <ImageView fitHeight="220.0" fitWidth="430.0" pickOnBounds="true">
                                        <image>
-                                          <Image url="@../../../../java/img/Punjab.jpg" />
+                                          <Image url="@../../../img/Punjab.jpg" />
                                        </image>
                                     </ImageView>
                                     <HBox prefHeight="220.0" prefWidth="430.0" styleClass="gradient">

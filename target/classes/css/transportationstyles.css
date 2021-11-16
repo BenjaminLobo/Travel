@@ -1,0 +1,16 @@
+.dark-background{
+    -fx-background-color: black;
+}
+
+.bottom {
+    -fx-background-color: #1C90E4;
+    -fx-background-radius: 50;
+}
+
+p.double {border-style: double;}
+
+p.round3 {
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 5px;
+}

@@ -15,9 +15,9 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1350.0" styleClass="dark-background" stylesheets="@../../../css/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travel.HelloController">
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1350.0" styleClass="dark-background" stylesheets="@../../../css/homepagestyles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travel.HelloController">
    <top>
-      <HBox prefHeight="100.0" prefWidth="1274.0" spacing="20.0" styleClass="border-bottom" stylesheets="@../../../css/styles.css" BorderPane.alignment="CENTER">
+      <HBox prefHeight="100.0" prefWidth="1274.0" spacing="20.0" styleClass="border-bottom" BorderPane.alignment="CENTER">
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="126.0">
                <children>
@@ -140,7 +140,7 @@
       </HBox>
    </top>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@../../../css/styles.css" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="100.0" styleClass="dark-background" BorderPane.alignment="CENTER">
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="1271.0">
                <children>
@@ -154,7 +154,7 @@
                               <Insets top="15.0" />
                            </VBox.margin>
                         </Label>
-                        <Label fx:id="nbPosts" prefHeight="48.0" prefWidth="144.0" text="25 posts" textFill="WHITE">
+                        <Label prefHeight="48.0" prefWidth="144.0" text="25 posts" textFill="WHITE">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -172,7 +172,7 @@
                         <Insets />
                      </HBox.margin>
                   </Pane>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" styleClass="bottom" stylesheets="@../../../css/styles.css" text="Filter" textFill="WHITE">
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" styleClass="bottom" text="Filter" textFill="WHITE">
                      <HBox.margin>
                         <Insets right="30.0" />
                      </HBox.margin></Button>

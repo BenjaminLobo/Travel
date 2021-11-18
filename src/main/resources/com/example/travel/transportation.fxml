@@ -1,87 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.paint.Color?>
-<?import javafx.scene.paint.LinearGradient?>
-<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-   <center>
-      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <ImageView fitHeight="300.0" fitWidth="600.0" opacity="0.84" pickOnBounds="true">
-               <image>
-                  <Image url="@../../../img/pexels-adrien-olichon-2387793.jpg" />
-               </image>
-            </ImageView>
-            <HBox alignment="CENTER" layoutX="20.0" prefHeight="40.0" prefWidth="560.0" styleClass="border-bottom">
+<AnchorPane styleClass="dark-background" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0">
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="600.0" text="Choose your Mode of Transportation" textAlignment="CENTER">
-                     <font>
-                        <Font name="Consolas" size="18.0" />
-                     </font>
-                     <textFill>
-                        <LinearGradient endX="1.0" endY="1.0">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="0.9186403751373291" green="0.9342105388641357" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="0.9342105388641357" green="0.025950292125344276" blue="0.025950292125344276" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
-                  </Label>
-               </children>
-            </HBox>
-            <Pane layoutX="30.0" layoutY="61.0" prefHeight="89.0" prefWidth="174.0">
-               <children>
-                  <Label layoutX="72.0" layoutY="32.0" text="Car">
-                     <font>
-                        <Font name="Comic Sans MS Bold" size="18.0" />
-                     </font>
-                  </Label>
-               </children>
-            </Pane>
-            <Pane layoutX="396.0" layoutY="61.0" prefHeight="89.0" prefWidth="174.0">
-               <children>
-                  <Label layoutX="63.0" layoutY="32.0" text="Bus">
-                     <font>
-                        <Font name="Comic Sans MS Bold" size="18.0" />
-                     </font>
-                  </Label>
-               </children>
-            </Pane>
-            <Pane layoutX="30.0" layoutY="176.0" prefHeight="89.0" prefWidth="174.0">
-               <children>
-                  <Label layoutX="64.0" layoutY="32.0" text="Train">
-                     <font>
-                        <Font name="Comic Sans MS Bold" size="18.0" />
-                     </font>
-                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="600.0" opacity="0.84" pickOnBounds="true" styleClass="dark-background" />
+                  <HBox alignment="CENTER" layoutX="20.0" prefHeight="40.0" prefWidth="560.0" styleClass="border-bottom">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="600.0" text="Choose your Mode of Transportation" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Pane layoutX="30.0" layoutY="61.0" prefHeight="89.0" prefWidth="174.0">
+                     <children>
+                        <Label layoutX="72.0" layoutY="32.0" text="Car">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="396.0" layoutY="61.0" prefHeight="89.0" prefWidth="174.0">
+                     <children>
+                        <Label layoutX="63.0" layoutY="32.0" text="Bus">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="30.0" layoutY="176.0" prefHeight="89.0" prefWidth="174.0">
+                     <children>
+                        <Label layoutX="64.0" layoutY="32.0" text="Train">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="396.0" layoutY="176.0" prefHeight="89.0" prefWidth="174.0">
+                     <children>
+                        <Label layoutX="58.0" layoutY="32.0" text="Flights">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
                </children>
             </Pane>
-            <Pane layoutX="396.0" layoutY="176.0" prefHeight="89.0" prefWidth="174.0">
-               <children>
-                  <Label layoutX="58.0" layoutY="32.0" text="Flights">
-                     <font>
-                        <Font name="Comic Sans MS Bold" size="18.0" />
-                     </font>
-                  </Label>
-               </children>
-            </Pane>
-         </children>
-      </Pane>
-   </center>
-</BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

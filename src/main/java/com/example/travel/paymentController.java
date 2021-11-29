@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 
 
 
-public class PaymentController extends BusController implements Initializable  {
+public class paymentController extends addviewbusbookingController implements Initializable  {
     public AnchorPane creditpane;
     public TextField cname;
     public TextField cnumber;

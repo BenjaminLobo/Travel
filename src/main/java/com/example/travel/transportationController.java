@@ -5,9 +5,8 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 
-public class transportationController {}
 
-/*public class transportationController {
+public class transportationController {
     ObservableList<String> carList = FXCollections.observableArrayList("Ola","Uber","Lyft");
 
     @FXML
@@ -19,5 +18,5 @@ public class transportationController {}
         car.setItems(carList);
     }
 
-}*/
+}
 
